@@ -7,7 +7,7 @@ class Program
     static void Main()
     {
         //String Reverse
-        //Example Preethi => ihteer
+        //Example Preethi => ihteerP
         string Name = "Preethi";
         String ReverseName = Name.ToCharArray().Select(c => c.ToString()).Aggregate<string>((a1, a2) => (a2 + a1));
         Console.WriteLine("string {0} is reversed to {1}", Name, ReverseName);
